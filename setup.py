@@ -2,7 +2,7 @@
 
 See:
 https://packaging.python.org/guides/distributing-packages-using-setuptools/
-https://gitee.com/xiabo0816/bloggart
+https://gitee.com/xiabo0816/pyhanzi
 """
 
 # Always prefer setuptools over distutils
@@ -22,14 +22,14 @@ setup(
     # package, this name will be registered for you. It will determine how
     # users can install this project, e.g.:
     #
-    # $ pip install bloggart
+    # $ pip install pyhanzi
     #
-    # And where it will live on PyPI: https://pypi.org/project/bloggart/
+    # And where it will live on PyPI: https://pypi.org/project/pyhanzi/
     #
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name='bloggart',  # Required
+    name='pyhanzi',  # Required
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
@@ -116,7 +116,7 @@ setup(
     # Note that this is a list of additional keywords, separated
     # by commas, to be used to assist searching for the distribution in a
     # larger catalog.
-    keywords='bloggart, setuptools, development',  # Optional
+    keywords='pyhanzi, setuptools, development',  # Optional
 
     # When your source code is in a subdirectory under the project root, e.g.
     # `src/`, it is necessary to specify the `package_dir` argument.
@@ -151,7 +151,7 @@ setup(
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
     #
-    #   $ pip install bloggart[dev]
+    #   $ pip install pyhanzi[dev]
     #
     # Similar to `install_requires` above, these must be valid existing
     # projects.
@@ -163,7 +163,7 @@ setup(
     # If there are data files included in your packages that need to be
     # installed, specify them here.
     package_data={  # Optional
-        # 'bloggart': ['package_data.dat'],
+        # 'pyhanzi': ['package_data.dat'],
     },
 
     # Although 'package_data' is the preferred approach, in some case you may
@@ -178,7 +178,7 @@ setup(
     # `pip` to create the appropriate form of executable for the target
     # platform.
     #
-    # For example, the following would provide a command called `bloggart` which
+    # For example, the following would provide a command called `pyhanzi` which
     # executes the function `main` from this package when invoked:
     entry_points={  # Optional
         'console_scripts': [
@@ -196,9 +196,9 @@ setup(
     # maintainers, and where to support the project financially. The key is
     # what's used to render the link text on PyPI.
     project_urls={  # Optional
-        'Bug Reports': 'https://gitee.com/xiabo0816/bloggart/issues',
+        'Bug Reports': 'https://gitee.com/xiabo0816/pyhanzi/issues',
         'Funding': 'https://donate.pypi.org',
-        'Say Thanks!': 'https://gitee.com/xiabo0816/bloggart/',
-        'Source': 'https://gitee.com/xiabo0816/bloggart/',
+        'Say Thanks!': 'https://gitee.com/xiabo0816/pyhanzi/',
+        'Source': 'https://gitee.com/xiabo0816/pyhanzi/',
     },
 )
